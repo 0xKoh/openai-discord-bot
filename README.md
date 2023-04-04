@@ -5,7 +5,7 @@ Discord Botに関する知見がある前提で解説していきます。
 
 ## 利用方法
 
-### config.json
+### config.jsonの設定
 まずOpenAIにてAPI keyを取得して ``config.json`` へ入力してください。
 その他、BotのクライアントIDとトークンも入力してください。
 ```json
@@ -15,7 +15,7 @@ Discord Botに関する知見がある前提で解説していきます。
     "openaiKey": "OpenAI API key"
 }
 ```
-### data.json
+### data.jsonの設定
 必要に応じて、``data.json`` の配列オブジェクトの最初の対話オブジェクトの ``content``へpromptを書き込むことで、GPT3.5のファインチューニングが可能になります。
 ```json
 [

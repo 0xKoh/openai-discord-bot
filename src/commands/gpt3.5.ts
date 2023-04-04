@@ -18,7 +18,7 @@ module.exports = {
 		await interaction.deferReply();
 
 		//APIキーと組織IDを設定
-		const configuration: any = new Configuration({
+		const configuration = new Configuration({
 			apiKey:	openaiKey
 		});
 
@@ -29,7 +29,7 @@ module.exports = {
 
 		//OpenAI APIを呼び出す
 		try {
-			const completion: any = await openai.createChatCompletion({
+			const completion = await openai.createChatCompletion({
 				model: "gpt-3.5-turbo",
 				messages: archive,
 			});

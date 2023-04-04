@@ -2,7 +2,7 @@ import { REST, Routes } from 'discord.js';
 import { clientId, token } from './config.json';
 import fs = require('fs');
 
-const commands = [];
+const commands: Array<string> = [];
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
