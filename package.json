@@ -1,0 +1,21 @@
+{
+  "name": "chatgpt-discord-bot",
+  "version": "1.0.0",
+  "description": "ChatGPT対話型Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.20.55",
+    "tsc": "^2.0.4",
+    "typescript": "^5.0.3"
+  }
+}
