@@ -1,5 +1,5 @@
 {
-    "token": "ODEzNTI2NzMyMTAyOTU5MTE1.GsLDgH.IQe74asozO7B-5lsobVd-voVeC3vLRwii_rYRQ",
-    "clientId": "813526732102959115",
-    "openaiKey": "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"
+    "token": "DiscordBotのトークン",
+    "clientId": "DiscordBotのクライアントID",
+    "openaiKey": "OpenAIのAPIキー"
 }
